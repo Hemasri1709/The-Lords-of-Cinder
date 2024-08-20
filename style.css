@@ -20,15 +20,57 @@ h1{
     color: white;
     text-shadow: 1px 1px 4px black;
 }
+img{
+    height: 100%;
+    width: 100%;
+}
 .one{
     background-color: red;
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/web.jpg");
+    background-size:cover;
+
+
 }
 .two{
     background-color: blue;
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/mens_web.jpg?format=webp&v=1722512767&width=1600");
+    background-size:cover;
 }
 .three{
     background-color: green;
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/dress_1.png?v=1716971329&width=1600");
+    background-size: cover;
 }
 .four{
     background-color: yellow;
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/dress2_1.png?v=1716971226&width=1600");
+    background-size: cover;
+}
+.five{
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/web_2.png?format=webp&v=1720605825&width=1600");
+    background-size: cover;
+}
+.six{
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/chandigarh_web.jpg?format=webp&v=1720702771&width=1600");
+    background-size: cover;
+}
+.seven{
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/youcareweb.png?format=webp&v=1716971843&width=1600");
+    background-size: cover;
+}
+
+
+
+.eight{
+    background-size: cover;
+}
+.vid1{
+    background-size: cover;
+
+}
+.nine{
+    
+}
+.ten{
+
 }
