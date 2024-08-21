@@ -15,6 +15,10 @@ section{
     align-items: center;
     scroll-snap-align: start;
 }
+.navigation-bar{
+    position: sticky;
+    top: 0;
+}
 
 h1{
     color: white;
@@ -31,9 +35,12 @@ img{
 
 
 }
+link1{
+
+}
 .two{
     background-color: blue;
-    background-image: url("https://www.theshopindia.com/cdn/shop/files/mens_web.jpg?format=webp&v=1722512767&width=1600");
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/mens_web.jpg?format=webp&v=1722512767&width=1600" );
     background-size:cover;
 }
 .three{
