@@ -38,12 +38,12 @@ img{
 }
 .three{
     background-color: green;
-    background-image: url("https://www.theshopindia.com/cdn/shop/files/dress_1.png?v=1716971329&width=1600");
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/11_590391a4-3ef0-48b3-83ba-6d3b9327a029.jpg?format=webp&v=1722601403&width=1600");
     background-size: cover;
 }
 .four{
     background-color: yellow;
-    background-image: url("https://www.theshopindia.com/cdn/shop/files/dress2_1.png?v=1716971226&width=1600");
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/kids-web.png?format=webp&v=1715756974&width=1600");
     background-size: cover;
 }
 .five{
@@ -65,6 +65,7 @@ img{
     background-size: cover;
 }
 .vid1{
+    height: 100vh;
     background-size: cover;
 
 }
