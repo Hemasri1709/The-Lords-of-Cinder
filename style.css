@@ -1,12 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container{ 
+
+.box{ 
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 100vh;
 }
 section{
     height: 100vh;
@@ -20,10 +15,7 @@ section{
     top: 0;
 }
 
-h1{
-    color: white;
-    text-shadow: 1px 1px 4px black;
-}
+
 img{
     height: 100%;
     width: 100%;
@@ -74,11 +66,101 @@ link1{
 .vid1{
     height: 100vh;
     background-size: cover;
-
-}
-.nine{
-    
 }
 .ten{
+    height: 100vh;
 
 }
+.shop {
+    color: #8B4513; 
+    padding: 25px;
+    font-family: "Merriweather", serif;;
+    text-align: center;
+    font-size:medium;
+    font-style: normal; 
+    font-weight: lighter;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+
+.flex{
+    height: 463px; 
+    width: 480px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.flex img {
+    display: flex;
+    width: 488px;
+    height: 360px;
+    border-radius: 30px;
+    
+}
+
+.flex h3 {
+    font-size: 1.5em;
+    color:#000;
+    text-align: left;
+    padding: 10px;
+    font-family: "Merriweather", serif;
+    font-weight: lighter;
+}
+
+.flex p {
+    font-size: 1em;
+    color: #8B0000;
+    text-decoration: none ;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: left;
+    padding: 10px;
+    font-family: "Merriweather", serif;
+    font-size: larger;
+}
+@media (max-width: 768px) {
+    .container1 {
+        justify-content: center;
+    }
+
+    .flex {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .flex img {
+        border-radius: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .shop {
+        font-size: small; 
+    }
+
+    .flex {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .flex h3 {
+        font-size: 1.2em;
+    }
+
+    .flex p {
+        font-size: 0.9em;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
