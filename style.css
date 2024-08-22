@@ -55,7 +55,6 @@ span{
 .container{ 
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 100vh;
 }
 section{
     height: 100vh;
@@ -141,6 +140,7 @@ img{
 .nine{
 }
 .ten{
+    height: 100vh;
 
 }
 a{
