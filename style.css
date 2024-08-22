@@ -2,6 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    ;
+}
+.header-logo{
+    height:100px;
+    width:100px;
+}
+#header{
+    padding-left: 150px;
+    display: inline-block;
+    padding-top: 30px;
+}
+span{
+    padding-top: 15px;
+}
+#logo{
+    text-decoration: none;
+    color: inherit;
+    font-size: xxx-large;
+    color: white;
+    height: 200px;
+    padding-left: 10px;
+}
+.logo :active, .logo:link , .logo:visited , .logo:focus{
+    color: white;
+}
+.navigation-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ 
+}
+
+.header-items{
+    color: #ffffff;
+    height: 20px;
+    width: 20px;
+}
+
+
+.nine,.ten{
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/Asset_4_1.png?v=1710417495");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
 .container{ 
     scroll-snap-type: y mandatory;
@@ -17,12 +66,27 @@ section{
 }
 .navigation-bar{
     position: sticky;
+    background: transparent;
     top: 0;
+    background-color: rgba(84, 67, 61, 0.851);
+    height: 150px;
+    opacity: 1;
 }
+.icons{
+    height: 30px;
+    width: 30px;
 
-h1{
-    color: white;
-    text-shadow: 1px 1px 4px black;
+}
+li{
+
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+    font-size: 50px;
+   
+    display:inline-block;
+
+    
 }
 img{
     height: 100%;
@@ -35,11 +99,9 @@ img{
 
 
 }
-link1{
 
-}
 .two{
-    background-color: blue;
+
     background-image: url("https://www.theshopindia.com/cdn/shop/files/mens_web.jpg?format=webp&v=1722512767&width=1600" );
     background-size:cover;
 }
@@ -77,8 +139,91 @@ link1{
 
 }
 .nine{
-    
 }
 .ten{
 
 }
+a{
+    color: white;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.flex{
+    height: 463px; 
+    width: 480px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+}   
+.flex img {
+    display: flex;
+    width: 488px;
+    height: 360px;
+    border-radius: 30px;
+    
+}
+
+.flex h3 {
+    font-size: 1.5em;
+    color:#000;
+    text-align: left;
+    padding: 10px;
+    font-family: "Merriweather", serif;
+    font-weight: lighter;
+}
+
+.flex p {
+    font-size: 1em;
+    color: #8B0000;
+    text-decoration: none ;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: left;
+    padding: 10px;
+    font-family: "Merriweather", serif;
+    font-size: larger;
+}
+@media (max-width: 768px) {
+    .container1 {
+        justify-content: center;
+    }
+
+    .flex {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .flex img {
+        border-radius: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .shop {
+        font-size: small; 
+    }
+
+    .flex {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .flex h3 {
+        font-size: 1.2em;
+    }
+
+    .flex p {
+        font-size: 0.9em;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
