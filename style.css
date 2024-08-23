@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    ;
+    
 }
+.container{ 
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}  
 .header-logo{
     height:100px;
     width:100px;
@@ -52,10 +57,7 @@ span{
     background-size: cover;
     
 }
-.container{ 
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-}
+
 section{
     height: 100vh;
     display: flex;
@@ -66,7 +68,7 @@ section{
 .navigation-bar{
     position: sticky;
     background: transparent;
-    top: 0;
+    top: 0px;
     background-color: rgba(84, 67, 61, 0.851);
     height: 150px;
     opacity: 1;
@@ -145,6 +147,9 @@ img{
 }
 a{
     color: white;
+}
+.eleven{
+    height: 100vh;
 }
 .container1{
     display: flex;
