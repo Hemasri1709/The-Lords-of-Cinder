@@ -146,6 +146,7 @@ img{
     height: 100vh;
 
 }
+
 a{
     color: white;
 }
@@ -272,3 +273,356 @@ a{
         opacity: 0.4;
     
     }
+    #build{
+        height: 23%;
+        position: relative;
+        bottom:275px;
+        left: 1020px;
+    }
+    #foot{
+       height: 290px;
+       min-width: 1700px;
+       position: relative;
+       right: 72px;
+       top: 100px;
+    
+    }
+    .text {
+        font-size: x-large;
+        font-weight: lighter;
+        color: rgb(84, 67, 61);
+        position: relative;
+        bottom: 570px;
+        left: 699px;
+        
+    }
+    .text2 {
+        font-size: x-large;
+        font-weight: lighter;
+        color: rgb(84, 67, 61);
+        position: relative;
+        bottom: 560px;
+        left: 400px;
+        
+    }
+    .text3 {
+        font-size: x-large;
+        font-weight: lighter;
+        color: rgb(84, 67, 61);
+        position: relative;
+        bottom: 550px;
+        left: 660px;
+        
+    }
+    .text4{
+        font-size:40px;
+        font-family: Haettenschweiler;
+        font-weight: 400;
+        letter-spacing: .01em;
+        color: #ffffff;
+        position: relative;
+        bottom: 470px;
+        left: 80px;
+
+    }
+    .text5 {
+        font-size:x-large;
+        font-family:  Haettenschweiler;
+        font-weight: lighter;
+        color: #ffffff;
+        position: relative;
+        bottom: 460px;
+        left: 80px;
+    }
+    #store{
+        height: 7%;
+        position: relative;
+        top: 100px;
+        right: 590px;
+    }
+    #bird {
+        height: 10%;
+        position: relative;
+        top: 60px;
+        right: 580px;
+    }
+    .text6 {
+        font-size:25px;
+        font-style: italic;
+        font-weight: 100;
+        color:rgb(84, 67, 61);
+        position: relative;
+        bottom: 457px;
+        left: 1170px;
+
+    }
+    #pen {
+        height: 10%;
+        position: relative;
+        top: 160px;
+        right: 665px;
+    }
+    .text7 {
+        font-size:25px;
+        
+        font-style: italic;
+        font-weight: 100;
+        color:rgb(84, 67, 61);
+        position: relative;
+        bottom: 380px;
+        left: 1170px;
+
+    }
+    .text8 {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #ffffff;
+        position: relative;
+        bottom: 550px;
+        left: 600px;
+    }
+    .text9 {
+        font-size: 20px;
+        color: rgb(84, 67, 61);
+        line-height: 19.01px;
+        letter-spacing: .02em;
+        padding-left: 70px;
+        padding-top: 8px;
+        padding-right: 70px;
+        padding-bottom: 8px;
+        background-color: #ffffff;
+        width: 50%;
+        border-radius: 4px;
+        position: relative;
+        bottom: 480px;
+        right: 180px;
+    }
+    .dropdown {
+        position: relative;
+        bottom: 506px;
+        left:215px;
+        
+        height: 10px;
+        max-width: 50px;
+        display: inline-block;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Dropdown button */
+    .dropdown button {
+    
+        background: transparent;
+        opacity: 0.8;
+        border: 1px solid rgba(255, 255, 255, 0.9);
+        border-radius: 4px;
+        padding: 10px;
+        padding-right: 150px;
+        font-size: 17px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #be9f79;
+        min-width: 160px;
+        padding-right: 130px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    /* Dropdown links */
+    .dropdown-content a {
+        color: rgb(255, 255, 255);
+        width: 60px;
+        padding: 12px ;
+        text-align: initial;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .dropdown-content a img {
+        margin-right: 10px;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+   
+    /* Dropdown container */
+    .reach {
+        position: relative;
+        bottom: 380px;
+        left: 150px;
+        display: inline-block;
+
+    }
+
+    /* Dropdown button */
+    .reach button {
+        background-color: transparent;
+        border: none;
+        font-size: 17px;
+        font-weight: 100;
+        color: #ffffff; /* Color similar to the text in the image */
+        cursor: pointer;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Add a small arrow (▼) */
+    .reach button::after {
+        content: " ▼";
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .reach-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(201, 190, 171, 0.7); /* Semi-transparent background */
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 4;
+        padding: 10px;
+    }
+
+    /* Links inside the dropdown */
+    .reach-content a {
+        color: #3e2e28; /* Darker color for the text */
+        padding: 8px 12px;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+    }
+
+    /* Change color on hover */
+    .reach-content a:hover {
+        background-color: #e2d5c6; /* Light color on hover */
+    }
+
+    /* Show the dropdown menu on hover */
+    .reach:hover .reach-content {
+        display: block;
+    }
+
+
+    .help {
+        position: relative;
+        bottom: 380px;
+        left: 300px;
+        display: inline-block;
+    }
+
+    /* Dropdown button */
+    .help button {
+        background-color: transparent;
+        border: none;
+        font-size: 17px;
+        color: #ffffff; /* Color similar to the text in the image */
+        cursor: pointer;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Add a small arrow (▼) */
+    .help button::after {
+        content: " ▼";
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .help-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(201, 190, 179, 0.7); /* Semi-transparent background */
+        min-width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        padding: 10px;
+    }
+
+    /* Links inside the dropdown */
+    .help-content a {
+        color: #3e2e28; /* Darker color for the text */
+        padding: 8px 12px;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+    }
+
+    /* Change color on hover */
+    .help-content a:hover {
+        background-color: #e2d5c6; /* Light color on hover */
+    }
+
+    /* Show the dropdown menu on hover */
+    .help:hover .help-content {
+        display: block;
+    }
+
+
+
+    /* Container holding the dropdown */
+.services {
+    position: relative;
+    bottom: 380px;
+    right: 360px;
+    display: inline-block;
+  }
+  
+  /* Dropdown button */
+  .servicesbtn {
+    background-color: transparent; /* Background color similar to the image */
+    color: white;
+    padding: 10px 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    align-items: center; 
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .services-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(201, 190, 179, 0.7); /* Semi-transparent background */
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+  }
+  
+  /* Links inside the dropdown */
+  .services-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Georgia', serif;
+  }
+  
+  /* Show the dropdown menu on hover */
+
+  /* Change color of dropdown links on hover */
+  .services-content a:hover {
+    background-color: #ddd;
+  }
+  .services:hover .services-content {
+    display: block;
+  }
+  
