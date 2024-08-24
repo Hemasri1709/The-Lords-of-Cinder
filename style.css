@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    overflow-x: hidden;
     
 }
 
@@ -188,7 +187,7 @@ a{
 }   
 .flex img {
     display: flex;
-    width: 488px;
+    width: 470px;
     height: 360px;
     border-radius: 30px;
     
