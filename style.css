@@ -46,6 +46,8 @@ span{
     color: #ffffff;
     height: 20px;
     width: 20px;
+    position: relative;
+    left: 800px;
 }
 
 
@@ -79,7 +81,9 @@ section{
 .icons{
     height: 30px;
     width: 30px;
-
+    position: relative;
+    left: 100px;
+    
 }
 li{
 
