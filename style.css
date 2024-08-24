@@ -67,6 +67,7 @@ section{
 }
 .navigation-bar{
     position: sticky;
+    display: flex;
     background: transparent;
     top: 0px;
     background-color: rgba(84, 67, 61, 0.851);
@@ -77,7 +78,7 @@ section{
 .icons{
     height: 30px;
     width: 30px;
-
+    
 }
 li{
 
