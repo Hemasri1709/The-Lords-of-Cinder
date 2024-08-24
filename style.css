@@ -156,6 +156,15 @@ img{
 a{
     color: white;
 }
+.shop {
+    color: #8B4513; 
+    padding: 25px;
+    font-family: "Merriweather", serif;;
+    text-align: center;
+    font-size:x-large;
+    font-style: normal; 
+    font-weight: lighter;
+}
 
 .container1{
     display: flex;
